@@ -1,5 +1,5 @@
 # Github-Random-Repository
-Simple web page that gives you a random repository in any language you want
+Simple web page that gives you a random repository in any language you want (project idea from https://roadmap.sh/projects/github-random-repo)
 This project is a JavaScript-based application that fetches and displays GitHub repositories based on selected programming languages. Users can select a language, view repository details, and refresh to get new repositories or retry fetching data in case of an error.
 Features
 
