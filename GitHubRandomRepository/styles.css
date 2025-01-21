@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:0;
+}
+html{
+    color-scheme: dark;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: #1c1b22;
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+form{
+    select{
+        font-size: large;
+        text-align: center;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+#container{
+    
+    width: 450px;
+    height: 400px;
+    padding: 20px;
+    background-color: #1c1b22;
+    font-size: xx-large;
+    justify-content: center;
+    border-radius: 10px;
+    span{
+        color: white;
+        margin-bottom: 10px;
+    }
+    #Repository{
+        font-size: x-large;
+        word-break: break-all;
+        height: 250px;
+        overflow: scroll;
+        color:rgb(168, 168, 168);
+    }
+}
+
+#Refresh{
+    font-size: 40px;
+    margin-top: 12px;
+    width: 600px;
+    height: 200px;
+    height: auto;
+    color: "#1c1b2";
+    border-radius: 8px;
+    color: #1c1b22;
+    background-color: white;
+    text-align: center;
+}
+#Refresh:hover{
+    background-color: rgb(168, 168, 168);
+    color: white;
+    cursor: pointer;
+}
+main{
+    margin-top: 20px;
+}
+svg{
+    fill: white;
+    transform: scale(1.4);
+    width: 16px;
+    height: 16px;
+}
+#stats{
+    
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+#MajorInfo{
+    display: flex;
+    flex-direction: column;
+}
+#ProjectName{
+    word-break: break-all;
+}
